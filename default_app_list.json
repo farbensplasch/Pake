@@ -87,6 +87,14 @@
     "url": "https://music.youtube.com/"
   },
   {
+    "name": "applemusic",
+    "title": "AppleMusic",
+    "name_zh": "Apple Music",
+    "url": "https://music.apple.com/",
+    "width": 1200,
+    "height": 800
+  },
+  {
     "name": "weread",
     "title": "WeRead",
     "name_zh": "微信阅读",

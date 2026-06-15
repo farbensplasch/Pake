@@ -1,0 +1,16 @@
+name: Build Apple Music App
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/single-app.yaml
+    secrets: inherit
+    with:
+      name: applemusic
+      title: AppleMusic
+      name_zh: Apple Music
+      url: https://music.apple.com/
+      width: 1200
+      height: 800
